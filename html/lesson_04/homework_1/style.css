@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.login-box,
+.footer {
+    width: 500px;
+    border: 2px solid silver;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    margin: 50px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+input {
+    width: 400px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border: 2px solid silver;
+    border-radius: 5px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 18px;
+}
+
+.enter-button {
+    width: 400px;
+    color: white;
+    background-color: #68B5FA;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.fb-enter {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3E4FB1;
+}
+
+.fb-logo {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.forgot-password {
+    margin: 30px;
+    font-size: 18px;
+    color: #3E4FB1;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer a {
+    margin-left: 5px;
+    color: #68B5FA;
+}
