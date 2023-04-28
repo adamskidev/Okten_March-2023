@@ -1,0 +1,20 @@
+.one > ul > li:nth-child(even) {
+    color: pink;
+}
+
+.two > ul > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.three > ul > li:nth-child(2n+4):before {
+    content: "!";
+}
+
+.four > ul > li:last-child {
+    color: violet;
+}
+
+.five > ul > li:first-letter {
+    font-size: 30px;
+    color: red;
+}
