@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    background-color: silver;
+}
+
+.a {
+    flex: 1;
+}
+
+.b-f {
+    flex: 2;
+    display: flex;
+    gap: 10px;
+}
+
+.b-e {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.b {
+    flex: 1;
+}
+
+.c-e {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+
+.c, .d, .e {
+    flex: 1;
+}
+
+.f {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .b-f {
+        flex: 4;
+        flex-direction: column;
+    }
+
+    .b {
+        flex: 2;
+    }
+}
