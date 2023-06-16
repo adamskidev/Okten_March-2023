@@ -1,0 +1,42 @@
+main {
+    width: 600px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#post-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(143, 206, 249, 0.5);
+    border: 3px solid rgba(143, 206, 249, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#post-block p {
+    margin: 0;
+}
+
+#post-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#post-body {
+    width: 55%;
+    font-size: 20px;
+}
+
+.comment-block {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(143, 206, 249, 0.5);
+    margin-bottom: 30px;
+}
